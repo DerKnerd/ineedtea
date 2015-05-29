@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Ineedtea.Server", "Ineedtea.Server\Ineedtea.Server.fsproj", "{3010328D-56EB-4E0C-976D-73595789397B}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Ineedtea.Client", "Ineedtea.Client\Ineedtea.Client.fsproj", "{9840559E-26A0-4A00-9D05-0B41D3ABF07B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinRTMapper", "WinRTMapper\WinRTMapper.csproj", "{59F77F99-426F-4FEA-A3EE-4EA4E424CE16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{3C33D1D0-F95B-4B26-BD2C-07212C904651}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3010328D-56EB-4E0C-976D-73595789397B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3010328D-56EB-4E0C-976D-73595789397B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3010328D-56EB-4E0C-976D-73595789397B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3010328D-56EB-4E0C-976D-73595789397B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9840559E-26A0-4A00-9D05-0B41D3ABF07B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9840559E-26A0-4A00-9D05-0B41D3ABF07B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9840559E-26A0-4A00-9D05-0B41D3ABF07B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9840559E-26A0-4A00-9D05-0B41D3ABF07B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59F77F99-426F-4FEA-A3EE-4EA4E424CE16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59F77F99-426F-4FEA-A3EE-4EA4E424CE16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59F77F99-426F-4FEA-A3EE-4EA4E424CE16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59F77F99-426F-4FEA-A3EE-4EA4E424CE16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
