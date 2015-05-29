@@ -16,6 +16,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{3C33D1
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Installer", "Installer", "{C54EA84A-AE8E-4169-BB22-4358DA612E88}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Ineedtea.Server", "Ineedtea.Server\Ineedtea.Server.vdproj", "{138A6852-1C66-4E09-B288-A84700925115}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Ineedtea.Client", "Ineedtea.Client\Ineedtea.Client.vdproj", "{6A98EAC2-DB0E-4FB7-82BB-3130E4D94344}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,8 +40,18 @@ Global
 		{59F77F99-426F-4FEA-A3EE-4EA4E424CE16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59F77F99-426F-4FEA-A3EE-4EA4E424CE16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59F77F99-426F-4FEA-A3EE-4EA4E424CE16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{138A6852-1C66-4E09-B288-A84700925115}.Debug|Any CPU.ActiveCfg = Debug
+		{138A6852-1C66-4E09-B288-A84700925115}.Release|Any CPU.ActiveCfg = Release
+		{6A98EAC2-DB0E-4FB7-82BB-3130E4D94344}.Debug|Any CPU.ActiveCfg = Debug
+		{6A98EAC2-DB0E-4FB7-82BB-3130E4D94344}.Debug|Any CPU.Build.0 = Debug
+		{6A98EAC2-DB0E-4FB7-82BB-3130E4D94344}.Release|Any CPU.ActiveCfg = Release
+		{6A98EAC2-DB0E-4FB7-82BB-3130E4D94344}.Release|Any CPU.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{138A6852-1C66-4E09-B288-A84700925115} = {C54EA84A-AE8E-4169-BB22-4358DA612E88}
+		{6A98EAC2-DB0E-4FB7-82BB-3130E4D94344} = {C54EA84A-AE8E-4169-BB22-4358DA612E88}
 	EndGlobalSection
 EndGlobal
