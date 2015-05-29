@@ -56,6 +56,9 @@
   </Choose>
   <Import Project="$(FSharpTargetsPath)" />
   <ItemGroup>
+    <Compile Include="AssemblyInfo.Ineedtea.Client.fs" />
+    <Compile Include="SystemExtensions.fs" />
+    <EmbeddedResource Include="Ineedtea.Client.resx" />
     <Compile Include="Program.fs" />
     <None Include="App.config" />
     <Content Include="..\Icon.ico">
