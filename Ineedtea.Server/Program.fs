@@ -3,8 +3,6 @@ open System.IO
 open System.Net
 open System.Net.Sockets
 open System.Threading
-open System.Windows.Forms
-open Windows.UI.Notifications
 
 let App_ID = "I need tea server"
 
