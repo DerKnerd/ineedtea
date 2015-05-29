@@ -45,21 +45,29 @@ module Client =
         let ineedtea = makeButton "I NEED TEA" (Point(5, 30))
         let ineedacuddle = makeButton "I NEED A CUDDLE" (Point(5, 100))
         let ineedfood = makeButton "I NEED FOOD" (Point(5, 170))
-        let ineedakiss = makeButton "I NEED A KISS" (Point(305, 30))
-        let emergency = makeButton "EMERGENCY :(" (Point(305, 100))
+        let ineedakiss = makeButton "I NEED A KISS" (Point(310, 30))
+        let emergency = makeButton "EMERGENCY :(" (Point(310, 100))
         let form = new Form()
-        let resources = new System.ComponentModel.ComponentResourceManager(form.GetType())
+        let resources = System.ComponentModel.ComponentResourceManager(form.GetType())
         form.Height <- 275
         form.Width <- 630
+        let container = new FlowLayoutPanel()
+        container.FlowDirection <- FlowDirection.LeftToRight
+        container.AutoSize <- true
+        container.Location <- Point(0, 30)
+        container.SetFlowBreak(ineedacuddle, true)
+        container.SetFlowBreak(ineedakiss, true)
+        container.WrapContents <- true
+        container.Controls.Add ineedtea
+        container.Controls.Add ineedacuddle
+        container.Controls.Add ineedfood
+        container.Controls.Add ineedakiss
+        container.Controls.Add emergency
         form.Icon <- UI.Icon :?> System.Drawing.Icon
         form.Text <- "I need tea"
         form.Controls.Add servernamelabel
         form.Controls.Add servername
-        form.Controls.Add ineedtea
-        form.Controls.Add ineedacuddle
-        form.Controls.Add ineedfood
-        form.Controls.Add ineedakiss
-        form.Controls.Add emergency
+        form.Controls.Add container
         form
 
     [<EntryPoint>]
