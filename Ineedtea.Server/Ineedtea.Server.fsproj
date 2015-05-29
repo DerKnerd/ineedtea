@@ -100,7 +100,6 @@
     <Reference Include="System.Runtime" />
     <Reference Include="System.Runtime.InteropServices.WindowsRuntime" />
     <Reference Include="System.Windows.Forms" />
-    <Reference Include="Windows" />
     <ProjectReference Include="..\WinRTMapper\WinRTMapper.csproj">
       <Name>WinRTMapper</Name>
       <Project>{59f77f99-426f-4fea-a3ee-4ea4e424ce16}</Project>
